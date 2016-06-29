@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" th:href="@{/site.css}" href="../site.css" />
+<title>My Accounts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body class="body">
+
+	<div id="components">
+		<div id="welcome">
+			<span>Welcome to My Accounts</span>
+		</div>
+
+		<div class="seperator"></div>
+
+		<div class="field">
+			<span class="field-title">Username: </span> <span class="field-input">
+				<input type="text" name="user" />
+			</span>
+		</div>
+
+		<div class="field-seperator"></div>
+
+		<div class="field">
+			<span class="field-title">Password: </span> <span class="field-input">
+				<input type="password" name="password" />
+			</span>
+		</div>
+
+		<div class="seperator"></div>
+	
+		<div class="button-centre">
+				<button id="submit">Logon</button>
+		</div>
+	</div>
+
+</body>
+</html>

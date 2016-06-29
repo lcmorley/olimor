@@ -1,4 +1,4 @@
-package uk.co.olimor.spring_boot_example.application;
+package uk.co.olimor.configuration;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;

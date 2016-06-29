@@ -1,4 +1,4 @@
-package uk.co.olimor.spring_boot_example.application;
+package uk.co.olimor.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestParam;
  *
  */
 @Controller
-public class GreetingController {
+public class LoginController {
 
-    @RequestMapping("/greeting")
-    public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
+    @RequestMapping("/login")
+    public String login(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "greeting";
+        return "login";
     }
 
 }
