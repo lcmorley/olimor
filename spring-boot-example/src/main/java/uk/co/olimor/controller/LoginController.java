@@ -1,22 +1,25 @@
 package uk.co.olimor.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+
+import lombok.extern.log4j.Log4j2;
 
 /**
  * Rest controller
+ * 
  * @author lcmor
  *
  */
 @Controller
+@Log4j2
 public class LoginController {
 
-    @RequestMapping("/login")
-    public String login(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model) {
-        model.addAttribute("name", name);
-        return "login";
-    }
+	@RequestMapping("/login")
+	public String login() {
+		log.entry("hello");
+		log.error("hello error", "hello error");
+		return log.exit("login");
+	}
 
 }
