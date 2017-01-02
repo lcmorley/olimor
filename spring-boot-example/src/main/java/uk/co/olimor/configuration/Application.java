@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"uk.co.olimor.controller", "uk.co.olimor.service"})
+@ComponentScan({"uk.co.olimor.service"})
 public class Application {
 
 	public static void main(String[] args) {
