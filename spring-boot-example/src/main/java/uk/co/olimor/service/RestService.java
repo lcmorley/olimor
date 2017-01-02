@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestService {
 
 	@RequestMapping(method = RequestMethod.GET, 
-			value = "/summary")
+			value = "/")
 	public String getAccountSummary() {
 		return "Account summary.";
 	}
