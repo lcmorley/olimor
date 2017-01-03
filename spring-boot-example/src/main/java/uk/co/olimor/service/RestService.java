@@ -10,7 +10,7 @@ public class RestService {
 	@RequestMapping(method = RequestMethod.GET, 
 			value = "/")
 	public String getAccountSummary() {
-		return "Account summary.";
+		return "This has been changed now.";
 	}
 
 }
