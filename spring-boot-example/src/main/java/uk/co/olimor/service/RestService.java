@@ -7,10 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestService {
 
-	@RequestMapping(method = RequestMethod.GET, 
-			value = "/")
+	@RequestMapping(method = RequestMethod.GET, value = "/")
 	public String getAccountSummary() {
-		return "This has been changed now.";
+		return "Try new build.";
 	}
 
 }
