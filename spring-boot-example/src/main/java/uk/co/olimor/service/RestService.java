@@ -9,7 +9,7 @@ public class RestService {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/")
 	public String getAccountSummary() {
-		return "Try new build.";
+		return "This should still be working.";
 	}
 
 }
