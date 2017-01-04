@@ -12,4 +12,9 @@ public class RestService {
 		return "This should still be working.";
 	}
 
+	@RequestMapping(method = RequestMethod.GET, value = "/status")
+	public String getHealth() {
+		return "Yup, I'm up and running.";
+	}
+
 }
