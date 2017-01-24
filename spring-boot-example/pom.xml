@@ -43,11 +43,17 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-slf4j-impl</artifactId>
 		</dependency>
+		
+		 <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-web</artifactId>
+        <version>${log4j.version}</version>
+        <scope>runtime</scope>
+    </dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>${junit.version}</version>
 		</dependency>
 
 	</dependencies>
@@ -56,7 +62,6 @@
 		<java.version>1.8</java.version>
 		<lombok.version>1.16.10</lombok.version>
 		<log4j.version>2.6.2</log4j.version>
-		<junit.version>4.12</junit.version>
 	</properties>
 
 	<build>

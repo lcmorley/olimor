@@ -13,7 +13,7 @@ public class RestServiceImplTest {
 
 	@Test
 	public void testGetAccountSummary() {
-		assertEquals("Summary JSON String.", new RestServiceImpl().getAccountSummary("userId"));		
+		assertEquals("Summary JSON String Changed.", new RestServiceImpl().getAccountSummary("userId"));		
 	}
 	
 	@Test
