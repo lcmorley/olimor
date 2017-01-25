@@ -62,8 +62,14 @@
 		<java.version>1.8</java.version>
 		<lombok.version>1.16.10</lombok.version>
 		<log4j.version>2.6.2</log4j.version>
+		<project.scm.id>git-server</project.scm.id>
 	</properties>
 
+
+	<scm> 
+  	<developerConnection>scm:git:https://github.com/lcmorley/olimor.git</developerConnection>
+  </scm>
+  
 	<build>
 		<plugins>
 			<plugin>
