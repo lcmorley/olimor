@@ -22,7 +22,7 @@ public class RestServiceImpl {
 	@RequestMapping(method = RequestMethod.GET, value = "/summary")
 	public String getAccountSummary(final String userId) {
 		log.entry(userId);
-		return log.traceExit("Summary JSON String Changed.");
+		return log.traceExit("Summary JSON String Changed again.");
 	}
 
 	/**
