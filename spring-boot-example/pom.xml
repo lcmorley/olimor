@@ -70,6 +70,19 @@
   	<developerConnection>scm:git:https://github.com/lcmorley/olimor.git</developerConnection>
   </scm>
   
+  <distributionManagement>
+		<repository>
+			<id>olimor-releases</id>
+			<name>olimor-releases</name>
+			<url>http://localhost:8888/artifactory/olimor</url>
+		</repository>
+		<snapshotRepository>
+			<id>olimor-snapshots</id>
+			<name>olimor-snapshots</name>
+			<url>http://localhost:8888/artifactory/olimor</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
 	<build>
 		<plugins>
 			<plugin>
